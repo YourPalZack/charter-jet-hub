@@ -31,6 +31,10 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
     "vite": "^5.0.0"
+<<<<<<< HEAD
   },
   "homepage": "https://YourPalZack.github.io/charter-jet-hub"
+=======
+  }
+>>>>>>> 3575c85a6746a7b5d716a01977e4d474027d1f64
 }
