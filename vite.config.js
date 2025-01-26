@@ -9,10 +9,10 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     emptyOutDir: true,
+    sourcemap: true,
     rollupOptions: {
-      input: resolve(__dirname, 'index.html'),
-      output: {
-        manualChunks: undefined
+      input: {
+        main: resolve(__dirname, 'index.html')
       }
     }
   },
