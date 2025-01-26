@@ -14,7 +14,7 @@ import { AuthProvider } from './contexts/AuthContext';
 export function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/charter-jet-hub">
         <div className="min-h-screen bg-gray-50">
           <Navbar />
           <main>
