@@ -12,10 +12,15 @@ import { OperatorProfile } from './pages/OperatorProfile';
 import { AuthProvider } from './contexts/AuthContext';
 
 export function App() {
+  console.log('App is rendering');
+
   return (
     <AuthProvider>
       <Router>
         <div className="min-h-screen bg-gray-50">
+          <div className="p-4 bg-blue-500 text-white text-center">
+            App is loaded successfully!
+          </div>
           <Navbar />
           <main>
             <Routes>
